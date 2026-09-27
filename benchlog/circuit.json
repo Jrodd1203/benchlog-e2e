@@ -1,0 +1,75 @@
+{
+  "board": "bb830",
+  "components": [
+    {
+      "id": "esp32",
+      "pins": {
+        "3V3": "H1",
+        "EN": "A15",
+        "GND1": "A3",
+        "GND2": "H2",
+        "GPIO1": "H13",
+        "GPIO12": "A4",
+        "GPIO13": "A2",
+        "GPIO14": "A5",
+        "GPIO15": "H3",
+        "GPIO16": "H6",
+        "GPIO17": "H7",
+        "GPIO18": "H9",
+        "GPIO19": "H10",
+        "GPIO2": "H4",
+        "GPIO21": "H11",
+        "GPIO22": "H14",
+        "GPIO23": "H15",
+        "GPIO25": "A8",
+        "GPIO26": "A7",
+        "GPIO27": "A6",
+        "GPIO3": "H12",
+        "GPIO32": "A10",
+        "GPIO33": "A9",
+        "GPIO34": "A12",
+        "GPIO35": "A11",
+        "GPIO36": "A14",
+        "GPIO39": "A13",
+        "GPIO4": "H5",
+        "GPIO5": "H8",
+        "VIN": "A1"
+      },
+      "type": "esp32_devkit_v1_30"
+    },
+    {
+      "id": "led1",
+      "pins": {
+        "anode": "H24",
+        "cathode": "I24"
+      },
+      "type": "led"
+    },
+    {
+      "id": "r1",
+      "pins": {
+        "1": "J22",
+        "2": "J15"
+      },
+      "type": "resistor"
+    }
+  ],
+  "schema_version": 1,
+  "wires": [
+    {
+      "a": "J23",
+      "b": "R-23",
+      "id": "w1"
+    },
+    {
+      "a": "R-5",
+      "b": "J4",
+      "id": "w2"
+    },
+    {
+      "a": "R+1",
+      "b": "J3",
+      "id": "w3"
+    }
+  ]
+}
